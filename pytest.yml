@@ -18,7 +18,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: clone repository
         run: |
-          git clone https://github.com/xiaopeng163/github-actions-python/blob/c005acdc69afaa81dbd0ac1b8a75c0d186a034dc/test_test1.py#L4
+          git clone https://github.com/wckjob/workflows/blob/main/test_test1.py
           cd github-actions-python
       - name: install pytest
         run: pip install pytest
